@@ -93,6 +93,8 @@ function getWeather() {
     if(localTime >= sunriseTime && localTime <= sunsetTime) {
       container.style.backgroundImage = "url('https://images.unsplash.com/photo-1542349314-587b18ea1c2a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png')";
       body.style.backgroundColor = '#D6EAF8';
+      weatherdate1.style.color = '#2C3E50'
+      weatherdat.style.color = '#2C3E50'
     
   } 
   else{
