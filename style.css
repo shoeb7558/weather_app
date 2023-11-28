@@ -1,0 +1,189 @@
+@font-face{
+  font-family: GhostFactory;
+  src:url('Ghost_Factory.ttf');      
+    
+}
+@font-face{
+  font-family: UrbanJungle;
+  src:url('UrbanJungleDEMO.otf');      
+    
+}
+@font-face{
+  font-family: White_and_black;
+  src:url('White_On_Black.ttf');      
+    
+}
+#backh1{
+  font-family: GhostFactory;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-95%, -80%);
+  z-index: 1; /* Adjust the z-index to be lower than .container */
+  color: black;
+  font-size: 90px;
+  width: -900px;
+  right: 0;
+}
+#backh2{
+  font-family:  GhostFactory;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(45%, -80%);
+  z-index: 1; /* Adjust the z-index to be lower than .container */
+  color: black;
+  font-size: 90px;
+  
+
+}
+
+body {
+    font-family: 'GhostFactory', 'UrbanJungle';
+    background-color: #E9F7EF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .search{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    position: absolute;
+    top: 20px; /* Adjust the top distance as needed */
+    width: 100%;
+    
+  }
+  #cityInput{
+    border-radius: 10px;
+    background-color: #E9F7EF;
+    border-color: #AED6F1;
+    margin-left: 0x;
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 250px;
+
+  }
+  #citybutton{
+    border-radius: 10px;
+    border-color: #AED6F1;
+    margin-left: 0x;
+    margin-right: 20px;
+    background-color: #D0ECE7;
+    padding-left: 10px;
+
+  }
+  
+  .container {
+    text-align: center;
+    height: 600px;
+    width: 450px;
+    background-color:  #EBF5FB ;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(52, 152, 219, 0.3);
+    position: relative;
+    color: #FDFEFE  ;
+    z-index: 2; 
+    
+    
+  }
+  .weatherinfo1{
+    justify-content: center;
+    display: flex;
+    color:  #CB4335;
+    gap: 180px;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Center the element horizontally */
+    transform: translateX(-50%);
+
+  }
+  .weatherinfo2{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    
+    
+    
+  }
+   
+  .weatherdate1{
+    font-family: White_and_black;
+    font-size: 25px;
+    
+    color:  #2E86C1;    
+    width: 100px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    
+  }
+  .Datediv{
+    
+    border-radius: 10px;    
+    margin-left: 0px;
+  }
+  
+  .weather-container {
+    text-align: center;
+  }
+  .weatherdescription{
+    font-family: UrbanJungle;
+    width: 30px;
+    padding-left: 30px;
+    color: #FDFEFE ;
+    font-size: 30px;
+  }
+  .weathercityName{
+    font-family: monospace;
+    font-size: 20px;
+    color: #FDFEFE ;
+    margin-bottom: -20px;
+    
+
+  }
+  .weathertemperature{
+    font-family: White_and_black;
+    font-size: 60px;
+    color: #FDFEFE ;
+  }
+  .weathertime{
+    font-family: monospace;
+    font-size: 20px;
+    color: #FDFEFE ;
+  
+
+  }
+  .weatherdate{
+    font-family: White_and_black;
+    font-size: 25px;
+    color:  #2E86C1;    
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+  }
+
+  input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  #weatherResult {
+    margin-top: 20px;
+  }
+
+  
